@@ -14,8 +14,7 @@
 
 In this article, I  build an application on RAG (Retrieval Augmented Generation)to answer academic questions using the source of scientific papers that we have collected (in pdf file format), using the LangChain library. In general, the pipeline of the project is as follows:
 
-![alt text](image.png)
-
+![image](https://github.com/user-attachments/assets/adee5913-26e9-49d2-b4b0-196a3bb8ed24)
 
 ## Structure
 
