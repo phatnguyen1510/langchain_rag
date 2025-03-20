@@ -42,7 +42,7 @@ This source directories are as follows:
 - **data_source** - Directory used to store documents for building vector database systems.
 - **src** - Includes all helper functions for the above executable files.
     - **base** - The code file used to declare the function that initializes the large language model.
-    - **rag** - Folder used to store code related to RAG construction
+    - **rag** - Folder used to store code related to RAG construction.
 
 ## Getting Started
 
