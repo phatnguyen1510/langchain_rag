@@ -51,25 +51,25 @@ This source directories are as follows:
 
 1. Clone project repo
 
-    ```
-    git clone https://github.com/phatnguyen1510/langchain_rag.git
-    ```
+```
+git clone https://github.com/phatnguyen1510/langchain_rag.git
+```
 
 
 2. Donwload data
 
 Require **wget** and **gdown** package
 
-    ```
-    $ pip install wget gdown
-    $ cd data_source/generative_ai && python download.py
-    $ cd ../machine_learning && python download.py
-    ```
+```bash
+$ pip3 install wget gdown
+$ cd data_source/generative_ai && python download.py
+$ cd ../machine_learning && python download.py
+```
 
 3. Run service
 
-```
-pip install -r dev_requirements.txt
-uvicorn src.app:app --host "0.0.0.0" --port 5000 --reload
+```bash
+$ pip3 install -r dev_requirements.txt
+$ uvicorn src.app:app --host "0.0.0.0" --port 5000 --reload
 ```
 
